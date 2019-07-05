@@ -1,0 +1,357 @@
+2018-11-20 00:19:20 [scrapy.downloadermiddlewares.robotstxt] ERROR: Error downloading <GET http://www1.maine.gov/robots.txt>: TCP connection timed out: 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond..
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+TCPTimedOutError: TCP connection timed out: 10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond..
+2018-11-20 00:20:08 [root] ERROR: database "maine_gov" already exists
+
+2018-11-20 00:20:10 [root] ERROR: relation "maine_gov_data" already exists
+
+2018-11-20 00:22:59 [root] ERROR: database "maine_gov" already exists
+
+2018-11-20 00:22:59 [root] ERROR: relation "maine_gov_data" already exists
+
+2018-11-21 00:41:40 [root] ERROR: database "maine_gov" already exists
+
+2018-11-21 00:41:43 [root] ERROR: relation "maine_gov_data" already exists
+
+2018-11-21 00:44:16 [root] ERROR: database "maine_gov" already exists
+
+2018-11-21 00:44:17 [root] ERROR: relation "maine_gov_data" already exists
+
+2018-11-21 00:44:48 [root] ERROR: Invalid expression
+2018-11-21 00:51:42 [root] ERROR: database "maine_gov" already exists
+
+2018-11-21 00:51:42 [root] ERROR: relation "maine_gov_data" already exists
+
+2018-11-21 00:58:17 [root] ERROR: database "maine_gov" already exists
+
+2018-11-21 00:58:18 [root] ERROR: relation "maine_gov_data" already exists
+
+2018-11-21 01:02:17 [root] ERROR: database "maine_gov" already exists
+
+2018-11-21 01:02:17 [root] ERROR: relation "maine_gov_data" already exists
+
+2018-11-21 01:16:49 [root] ERROR: database "maine_gov" already exists
+
+2018-11-21 01:16:50 [root] ERROR: relation "maine_gov_data" already exists
+
+2018-11-21 01:19:17 [root] ERROR: database "maine_gov" already exists
+
+2018-11-21 01:19:17 [root] ERROR: relation "maine_gov_data" already exists
+
+2018-11-21 01:19:31 [root] ERROR: database "maine_gov" already exists
+
+2018-11-21 01:19:31 [root] ERROR: relation "maine_gov_data" already exists
+
+2018-11-21 01:22:04 [root] ERROR: database "maine_gov" already exists
+
+2018-11-21 01:22:04 [root] ERROR: relation "maine_gov_data" already exists
+
+2018-11-21 01:23:30 [root] ERROR: database "maine_gov" already exists
+
+2018-11-21 01:23:30 [root] ERROR: relation "maine_gov_data" already exists
+
+2018-11-21 01:25:37 [root] ERROR: database "maine_gov" already exists
+
+2018-11-21 01:25:37 [root] ERROR: relation "maine_gov_data" already exists
+
+2018-11-21 01:27:01 [root] ERROR: database "maine_gov" already exists
+
+2018-11-21 01:27:01 [root] ERROR: relation "maine_gov_data" already exists
+
+2018-11-21 01:30:47 [root] ERROR: database "maine_gov" already exists
+
+2018-11-21 01:30:47 [root] ERROR: relation "maine_gov_data" already exists
+
+2018-11-21 13:43:11 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\pipelines.py:35:database "maine_gov" already exists
+
+2018-11-21 13:43:12 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\pipelines.py:66:relation "maine_gov_data" already exists
+
+2018-11-21 13:45:03 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\pipelines.py:35:database "maine_gov" already exists
+
+2018-11-21 13:45:03 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\pipelines.py:66:relation "maine_gov_data" already exists
+
+2018-11-21 13:47:24 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\pipelines.py:35:database "maine_gov" already exists
+
+2018-11-21 13:47:24 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\pipelines.py:66:relation "maine_gov_data" already exists
+
+2018-11-21 13:54:39 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\pipelines.py:35:database "maine_gov" already exists
+
+2018-11-21 13:54:39 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\pipelines.py:66:relation "maine_gov_data" already exists
+
+2018-11-21 13:55:20 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\pipelines.py:35:database "maine_gov" already exists
+
+2018-11-21 13:55:20 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\pipelines.py:66:relation "maine_gov_data" already exists
+
+2018-11-21 14:43:11 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\pipelines.py:35:database "maine_gov" already exists
+
+2018-11-21 14:43:11 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\pipelines.py:66:relation "maine_gov_data" already exists
+
+2018-11-21 14:45:03 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\pipelines.py:35:database "maine_gov" already exists
+
+2018-11-21 14:45:03 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\pipelines.py:66:relation "maine_gov_data" already exists
+
+2018-11-21 15:04:59 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\pipelines.py:35:database "maine_gov" already exists
+
+2018-11-21 15:06:53 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\pipelines.py:35:database "maine_gov" already exists
+
+2018-11-21 15:06:53 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\pipelines.py:75:relation "maine_gov_data" already exists
+
+2018-11-21 15:08:06 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\pipelines.py:35:database "maine_gov" already exists
+
+2018-11-21 15:08:06 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\pipelines.py:75:relation "maine_gov_data" already exists
+
+2018-11-21 15:09:56 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\pipelines.py:35:database "maine_gov" already exists
+
+2018-11-21 15:11:53 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\pipelines.py:35:database "maine_gov" already exists
+
+2018-11-21 15:11:53 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\pipelines.py:75:relation "maine_gov_data" already exists
+
+2018-11-21 15:12:17 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\pipelines.py:35:database "maine_gov" already exists
+
+2018-11-21 15:12:17 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\pipelines.py:75:relation "maine_gov_data" already exists
+
+2018-11-21 15:12:32 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:274:list index out of range
+2018-11-21 15:12:43 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:274:list index out of range
+2018-11-21 15:12:48 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:274:list index out of range
+2018-11-21 15:12:58 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:274:list index out of range
+2018-11-21 15:13:16 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:274:list index out of range
+2018-11-21 15:13:30 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:274:list index out of range
+2018-11-21 15:13:37 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:274:list index out of range
+2018-11-21 15:13:46 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:274:list index out of range
+2018-11-21 15:13:50 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:220:'ascii' codec can't encode characters in position 8074-8076: ordinal not in range(128)
+2018-11-21 15:13:50 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:225:'ascii' codec can't encode characters in position 8074-8076: ordinal not in range(128)
+2018-11-21 15:13:50 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:229:'ascii' codec can't encode characters in position 8074-8076: ordinal not in range(128)
+2018-11-21 15:13:50 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:233:'ascii' codec can't encode characters in position 8074-8076: ordinal not in range(128)
+2018-11-21 15:13:50 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:237:'ascii' codec can't encode characters in position 8074-8076: ordinal not in range(128)
+2018-11-21 15:13:50 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:241:'ascii' codec can't encode characters in position 8074-8076: ordinal not in range(128)
+2018-11-21 15:13:50 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:245:'ascii' codec can't encode characters in position 8074-8076: ordinal not in range(128)
+2018-11-21 15:13:50 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:249:'ascii' codec can't encode characters in position 8074-8076: ordinal not in range(128)
+2018-11-21 15:14:04 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:274:list index out of range
+2018-11-21 15:14:17 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:274:list index out of range
+2018-11-21 15:14:20 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:274:list index out of range
+2018-11-21 15:14:34 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:274:list index out of range
+2018-11-21 15:14:37 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:220:'ascii' codec can't encode characters in position 8062-8064: ordinal not in range(128)
+2018-11-21 15:14:37 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:225:'ascii' codec can't encode characters in position 8062-8064: ordinal not in range(128)
+2018-11-21 15:14:37 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:229:'ascii' codec can't encode characters in position 8062-8064: ordinal not in range(128)
+2018-11-21 15:14:37 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:233:'ascii' codec can't encode characters in position 8062-8064: ordinal not in range(128)
+2018-11-21 15:14:37 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:237:'ascii' codec can't encode characters in position 8062-8064: ordinal not in range(128)
+2018-11-21 15:14:37 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:241:'ascii' codec can't encode characters in position 8062-8064: ordinal not in range(128)
+2018-11-21 15:14:37 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:245:'ascii' codec can't encode characters in position 8062-8064: ordinal not in range(128)
+2018-11-21 15:14:37 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:249:'ascii' codec can't encode characters in position 8062-8064: ordinal not in range(128)
+2018-11-21 15:14:47 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:220:'ascii' codec can't encode characters in position 7917-7919: ordinal not in range(128)
+2018-11-21 15:14:47 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:225:'ascii' codec can't encode characters in position 7917-7919: ordinal not in range(128)
+2018-11-21 15:14:47 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:229:'ascii' codec can't encode characters in position 7917-7919: ordinal not in range(128)
+2018-11-21 15:14:47 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:233:'ascii' codec can't encode characters in position 7917-7919: ordinal not in range(128)
+2018-11-21 15:14:47 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:237:'ascii' codec can't encode characters in position 7917-7919: ordinal not in range(128)
+2018-11-21 15:14:47 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:241:'ascii' codec can't encode characters in position 7917-7919: ordinal not in range(128)
+2018-11-21 15:14:47 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:245:'ascii' codec can't encode characters in position 7917-7919: ordinal not in range(128)
+2018-11-21 15:14:47 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:249:'ascii' codec can't encode characters in position 7917-7919: ordinal not in range(128)
+2018-11-21 15:14:57 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:220:'ascii' codec can't encode characters in position 8025-8027: ordinal not in range(128)
+2018-11-21 15:14:57 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:225:'ascii' codec can't encode characters in position 8025-8027: ordinal not in range(128)
+2018-11-21 15:14:57 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:229:'ascii' codec can't encode characters in position 8025-8027: ordinal not in range(128)
+2018-11-21 15:14:57 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:233:'ascii' codec can't encode characters in position 8025-8027: ordinal not in range(128)
+2018-11-21 15:14:57 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:237:'ascii' codec can't encode characters in position 8025-8027: ordinal not in range(128)
+2018-11-21 15:14:57 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:241:'ascii' codec can't encode characters in position 8025-8027: ordinal not in range(128)
+2018-11-21 15:14:57 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:245:'ascii' codec can't encode characters in position 8025-8027: ordinal not in range(128)
+2018-11-21 15:14:57 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:249:'ascii' codec can't encode characters in position 8025-8027: ordinal not in range(128)
+2018-11-21 15:15:15 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:220:'ascii' codec can't encode characters in position 8124-8126: ordinal not in range(128)
+2018-11-21 15:15:15 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:225:'ascii' codec can't encode characters in position 8124-8126: ordinal not in range(128)
+2018-11-21 15:15:15 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:229:'ascii' codec can't encode characters in position 8124-8126: ordinal not in range(128)
+2018-11-21 15:15:15 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:233:'ascii' codec can't encode characters in position 8124-8126: ordinal not in range(128)
+2018-11-21 15:15:15 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:237:'ascii' codec can't encode characters in position 8124-8126: ordinal not in range(128)
+2018-11-21 15:15:15 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:241:'ascii' codec can't encode characters in position 8124-8126: ordinal not in range(128)
+2018-11-21 15:15:15 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:245:'ascii' codec can't encode characters in position 8124-8126: ordinal not in range(128)
+2018-11-21 15:15:15 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:249:'ascii' codec can't encode characters in position 8124-8126: ordinal not in range(128)
+2018-11-21 15:15:21 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:220:'ascii' codec can't encode characters in position 7979-7981: ordinal not in range(128)
+2018-11-21 15:15:21 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:225:'ascii' codec can't encode characters in position 7979-7981: ordinal not in range(128)
+2018-11-21 15:15:21 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:229:'ascii' codec can't encode characters in position 7979-7981: ordinal not in range(128)
+2018-11-21 15:15:21 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:233:'ascii' codec can't encode characters in position 7979-7981: ordinal not in range(128)
+2018-11-21 15:15:21 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:237:'ascii' codec can't encode characters in position 7979-7981: ordinal not in range(128)
+2018-11-21 15:15:21 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:241:'ascii' codec can't encode characters in position 7979-7981: ordinal not in range(128)
+2018-11-21 15:15:21 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:245:'ascii' codec can't encode characters in position 7979-7981: ordinal not in range(128)
+2018-11-21 15:15:21 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:249:'ascii' codec can't encode characters in position 7979-7981: ordinal not in range(128)
+2018-11-21 15:24:08 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\pipelines.py:35:database "maine_gov" already exists
+
+2018-11-21 15:24:08 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\pipelines.py:75:relation "maine_gov_data" already exists
+
+2018-11-21 15:24:53 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\pipelines.py:35:database "maine_gov" already exists
+
+2018-11-21 15:24:53 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\pipelines.py:75:relation "maine_gov_data" already exists
+
+2018-11-21 15:25:26 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:281:list index out of range
+2018-11-21 15:26:39 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\pipelines.py:35:database "maine_gov" already exists
+
+2018-11-21 15:26:46 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:281:list index out of range
+2018-11-21 15:26:46 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:281:list index out of range
+2018-11-21 15:26:46 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:281:list index out of range
+2018-11-21 15:26:46 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:281:list index out of range
+2018-11-21 15:26:47 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:281:list index out of range
+2018-11-21 15:26:47 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:281:list index out of range
+2018-11-21 15:26:47 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:281:list index out of range
+2018-11-21 15:26:47 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:281:list index out of range
+2018-11-21 15:26:47 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:232:local variable 'OutputString' referenced before assignment
+2018-11-21 15:26:47 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:236:local variable 'OutputString' referenced before assignment
+2018-11-21 15:26:47 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:240:local variable 'OutputString' referenced before assignment
+2018-11-21 15:26:47 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:244:local variable 'OutputString' referenced before assignment
+2018-11-21 15:26:47 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:248:local variable 'OutputString' referenced before assignment
+2018-11-21 15:26:47 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:252:local variable 'OutputString' referenced before assignment
+2018-11-21 15:26:47 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:256:local variable 'OutputString' referenced before assignment
+2018-11-21 15:26:47 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:281:list index out of range
+2018-11-21 15:26:47 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:281:list index out of range
+2018-11-21 15:26:47 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:281:list index out of range
+2018-11-21 15:26:47 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:281:list index out of range
+2018-11-21 15:26:47 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:232:local variable 'OutputString' referenced before assignment
+2018-11-21 15:26:47 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:236:local variable 'OutputString' referenced before assignment
+2018-11-21 15:26:47 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:240:local variable 'OutputString' referenced before assignment
+2018-11-21 15:26:47 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:244:local variable 'OutputString' referenced before assignment
+2018-11-21 15:26:47 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:248:local variable 'OutputString' referenced before assignment
+2018-11-21 15:26:47 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:252:local variable 'OutputString' referenced before assignment
+2018-11-21 15:26:47 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:256:local variable 'OutputString' referenced before assignment
+2018-11-21 15:26:48 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:232:local variable 'OutputString' referenced before assignment
+2018-11-21 15:26:48 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:236:local variable 'OutputString' referenced before assignment
+2018-11-21 15:26:48 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:240:local variable 'OutputString' referenced before assignment
+2018-11-21 15:26:48 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:244:local variable 'OutputString' referenced before assignment
+2018-11-21 15:26:48 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:248:local variable 'OutputString' referenced before assignment
+2018-11-21 15:26:48 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:252:local variable 'OutputString' referenced before assignment
+2018-11-21 15:26:48 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:256:local variable 'OutputString' referenced before assignment
+2018-11-21 15:26:48 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:232:local variable 'OutputString' referenced before assignment
+2018-11-21 15:26:48 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:236:local variable 'OutputString' referenced before assignment
+2018-11-21 15:26:48 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:240:local variable 'OutputString' referenced before assignment
+2018-11-21 15:26:48 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:244:local variable 'OutputString' referenced before assignment
+2018-11-21 15:26:48 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:248:local variable 'OutputString' referenced before assignment
+2018-11-21 15:26:48 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:252:local variable 'OutputString' referenced before assignment
+2018-11-21 15:26:48 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:256:local variable 'OutputString' referenced before assignment
+2018-11-21 15:26:48 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:232:local variable 'OutputString' referenced before assignment
+2018-11-21 15:26:48 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:236:local variable 'OutputString' referenced before assignment
+2018-11-21 15:26:48 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:240:local variable 'OutputString' referenced before assignment
+2018-11-21 15:26:48 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:244:local variable 'OutputString' referenced before assignment
+2018-11-21 15:26:48 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:248:local variable 'OutputString' referenced before assignment
+2018-11-21 15:26:48 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:252:local variable 'OutputString' referenced before assignment
+2018-11-21 15:26:48 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:256:local variable 'OutputString' referenced before assignment
+2018-11-21 15:26:48 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:232:local variable 'OutputString' referenced before assignment
+2018-11-21 15:26:48 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:236:local variable 'OutputString' referenced before assignment
+2018-11-21 15:26:48 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:240:local variable 'OutputString' referenced before assignment
+2018-11-21 15:26:48 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:244:local variable 'OutputString' referenced before assignment
+2018-11-21 15:26:48 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:248:local variable 'OutputString' referenced before assignment
+2018-11-21 15:26:48 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:252:local variable 'OutputString' referenced before assignment
+2018-11-21 15:26:48 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:256:local variable 'OutputString' referenced before assignment
+2018-11-21 15:28:57 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\pipelines.py:35:database "maine_gov" already exists
+
+2018-11-21 15:28:57 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\pipelines.py:75:relation "maine_gov_data" already exists
+
+2018-11-21 15:29:03 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\pipelines.py:35:database "maine_gov" already exists
+
+2018-11-21 15:29:03 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\pipelines.py:75:relation "maine_gov_data" already exists
+
+2018-11-21 15:29:26 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:233:'ascii' codec can't encode characters in position 8074-8076: ordinal not in range(128)
+2018-11-21 15:29:26 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:237:'ascii' codec can't encode characters in position 8074-8076: ordinal not in range(128)
+2018-11-21 15:29:26 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:241:'ascii' codec can't encode characters in position 8074-8076: ordinal not in range(128)
+2018-11-21 15:29:26 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:245:'ascii' codec can't encode characters in position 8074-8076: ordinal not in range(128)
+2018-11-21 15:29:26 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:249:'ascii' codec can't encode characters in position 8074-8076: ordinal not in range(128)
+2018-11-21 15:29:26 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:253:'ascii' codec can't encode characters in position 8074-8076: ordinal not in range(128)
+2018-11-21 15:29:26 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:257:'ascii' codec can't encode characters in position 8074-8076: ordinal not in range(128)
+2018-11-21 15:30:38 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\pipelines.py:35:database "maine_gov" already exists
+
+2018-11-21 15:30:54 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:282:list index out of range
+2018-11-21 15:31:04 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:282:list index out of range
+2018-11-21 15:31:09 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:282:list index out of range
+2018-11-21 15:31:18 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:282:list index out of range
+2018-11-21 15:31:37 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:282:list index out of range
+2018-11-21 15:31:51 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:282:list index out of range
+2018-11-21 15:31:57 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:282:list index out of range
+2018-11-21 15:32:10 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:282:list index out of range
+2018-11-21 15:32:14 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:228:'ascii' codec can't encode characters in position 8074-8076: ordinal not in range(128)
+2018-11-21 15:32:14 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:233:'ascii' codec can't encode characters in position 8074-8076: ordinal not in range(128)
+2018-11-21 15:32:14 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:237:'ascii' codec can't encode characters in position 8074-8076: ordinal not in range(128)
+2018-11-21 15:32:14 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:241:'ascii' codec can't encode characters in position 8074-8076: ordinal not in range(128)
+2018-11-21 15:32:14 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:245:'ascii' codec can't encode characters in position 8074-8076: ordinal not in range(128)
+2018-11-21 15:32:14 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:249:'ascii' codec can't encode characters in position 8074-8076: ordinal not in range(128)
+2018-11-21 15:32:14 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:253:'ascii' codec can't encode characters in position 8074-8076: ordinal not in range(128)
+2018-11-21 15:32:14 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:257:'ascii' codec can't encode characters in position 8074-8076: ordinal not in range(128)
+2018-11-21 15:32:27 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:282:list index out of range
+2018-11-21 15:32:41 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:282:list index out of range
+2018-11-21 15:32:48 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:282:list index out of range
+2018-11-21 15:32:57 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:282:list index out of range
+2018-11-21 15:33:00 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:228:'ascii' codec can't encode characters in position 8062-8064: ordinal not in range(128)
+2018-11-21 15:33:00 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:233:'ascii' codec can't encode characters in position 8062-8064: ordinal not in range(128)
+2018-11-21 15:33:00 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:237:'ascii' codec can't encode characters in position 8062-8064: ordinal not in range(128)
+2018-11-21 15:33:00 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:241:'ascii' codec can't encode characters in position 8062-8064: ordinal not in range(128)
+2018-11-21 15:33:00 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:245:'ascii' codec can't encode characters in position 8062-8064: ordinal not in range(128)
+2018-11-21 15:33:00 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:249:'ascii' codec can't encode characters in position 8062-8064: ordinal not in range(128)
+2018-11-21 15:33:00 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:253:'ascii' codec can't encode characters in position 8062-8064: ordinal not in range(128)
+2018-11-21 15:33:00 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:257:'ascii' codec can't encode characters in position 8062-8064: ordinal not in range(128)
+2018-11-21 15:33:08 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:228:'ascii' codec can't encode characters in position 7917-7919: ordinal not in range(128)
+2018-11-21 15:33:08 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:233:'ascii' codec can't encode characters in position 7917-7919: ordinal not in range(128)
+2018-11-21 15:33:08 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:237:'ascii' codec can't encode characters in position 7917-7919: ordinal not in range(128)
+2018-11-21 15:33:08 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:241:'ascii' codec can't encode characters in position 7917-7919: ordinal not in range(128)
+2018-11-21 15:33:08 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:245:'ascii' codec can't encode characters in position 7917-7919: ordinal not in range(128)
+2018-11-21 15:33:08 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:249:'ascii' codec can't encode characters in position 7917-7919: ordinal not in range(128)
+2018-11-21 15:33:08 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:253:'ascii' codec can't encode characters in position 7917-7919: ordinal not in range(128)
+2018-11-21 15:33:08 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:257:'ascii' codec can't encode characters in position 7917-7919: ordinal not in range(128)
+2018-11-21 15:33:18 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:228:'ascii' codec can't encode characters in position 8025-8027: ordinal not in range(128)
+2018-11-21 15:33:18 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:233:'ascii' codec can't encode characters in position 8025-8027: ordinal not in range(128)
+2018-11-21 15:33:18 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:237:'ascii' codec can't encode characters in position 8025-8027: ordinal not in range(128)
+2018-11-21 15:33:18 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:241:'ascii' codec can't encode characters in position 8025-8027: ordinal not in range(128)
+2018-11-21 15:33:18 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:245:'ascii' codec can't encode characters in position 8025-8027: ordinal not in range(128)
+2018-11-21 15:33:18 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:249:'ascii' codec can't encode characters in position 8025-8027: ordinal not in range(128)
+2018-11-21 15:33:18 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:253:'ascii' codec can't encode characters in position 8025-8027: ordinal not in range(128)
+2018-11-21 15:33:18 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:257:'ascii' codec can't encode characters in position 8025-8027: ordinal not in range(128)
+2018-11-21 15:33:34 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:228:'ascii' codec can't encode characters in position 8124-8126: ordinal not in range(128)
+2018-11-21 15:33:34 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:233:'ascii' codec can't encode characters in position 8124-8126: ordinal not in range(128)
+2018-11-21 15:33:34 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:237:'ascii' codec can't encode characters in position 8124-8126: ordinal not in range(128)
+2018-11-21 15:33:34 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:241:'ascii' codec can't encode characters in position 8124-8126: ordinal not in range(128)
+2018-11-21 15:33:34 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:245:'ascii' codec can't encode characters in position 8124-8126: ordinal not in range(128)
+2018-11-21 15:33:34 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:249:'ascii' codec can't encode characters in position 8124-8126: ordinal not in range(128)
+2018-11-21 15:33:34 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:253:'ascii' codec can't encode characters in position 8124-8126: ordinal not in range(128)
+2018-11-21 15:33:34 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:257:'ascii' codec can't encode characters in position 8124-8126: ordinal not in range(128)
+2018-11-21 15:33:40 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:228:'ascii' codec can't encode characters in position 7979-7981: ordinal not in range(128)
+2018-11-21 15:33:40 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:233:'ascii' codec can't encode characters in position 7979-7981: ordinal not in range(128)
+2018-11-21 15:33:40 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:237:'ascii' codec can't encode characters in position 7979-7981: ordinal not in range(128)
+2018-11-21 15:33:40 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:241:'ascii' codec can't encode characters in position 7979-7981: ordinal not in range(128)
+2018-11-21 15:33:40 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:245:'ascii' codec can't encode characters in position 7979-7981: ordinal not in range(128)
+2018-11-21 15:33:40 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:249:'ascii' codec can't encode characters in position 7979-7981: ordinal not in range(128)
+2018-11-21 15:33:40 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:253:'ascii' codec can't encode characters in position 7979-7981: ordinal not in range(128)
+2018-11-21 15:33:40 [root] ERROR: D:\Project\Python Script\PythonCode\Temp_Project\1\4\4\maine_gov\maine_gov\spiders\maine_gov_crawler.py:257:'ascii' codec can't encode characters in position 7979-7981: ordinal not in range(128)
+2018-11-21 23:44:25 [root] ERROR: 'ascii' codec can't encode characters in position 8096-8098: ordinal not in range(128)
+2018-11-21 23:44:25 [root] ERROR: 'ascii' codec can't encode characters in position 8096-8098: ordinal not in range(128)
+2018-11-21 23:44:25 [root] ERROR: 'ascii' codec can't encode characters in position 8096-8098: ordinal not in range(128)
+2018-11-21 23:44:25 [root] ERROR: 'ascii' codec can't encode characters in position 8096-8098: ordinal not in range(128)
+2018-11-21 23:44:25 [root] ERROR: 'ascii' codec can't encode characters in position 8096-8098: ordinal not in range(128)
+2018-11-21 23:44:25 [root] ERROR: 'ascii' codec can't encode characters in position 8096-8098: ordinal not in range(128)
+2018-11-21 23:44:25 [root] ERROR: 'ascii' codec can't encode characters in position 8096-8098: ordinal not in range(128)
+2018-11-21 23:44:25 [root] ERROR: 'ascii' codec can't encode characters in position 8096-8098: ordinal not in range(128)
+2018-11-21 23:44:46 [root] ERROR: 'ascii' codec can't encode characters in position 8064-8066: ordinal not in range(128)
+2018-11-21 23:44:46 [root] ERROR: 'ascii' codec can't encode characters in position 8064-8066: ordinal not in range(128)
+2018-11-21 23:44:46 [root] ERROR: 'ascii' codec can't encode characters in position 8064-8066: ordinal not in range(128)
+2018-11-21 23:44:46 [root] ERROR: 'ascii' codec can't encode characters in position 8064-8066: ordinal not in range(128)
+2018-11-21 23:44:46 [root] ERROR: 'ascii' codec can't encode characters in position 8064-8066: ordinal not in range(128)
+2018-11-21 23:44:46 [root] ERROR: 'ascii' codec can't encode characters in position 8064-8066: ordinal not in range(128)
+2018-11-21 23:44:46 [root] ERROR: 'ascii' codec can't encode characters in position 8064-8066: ordinal not in range(128)
+2018-11-21 23:44:46 [root] ERROR: 'ascii' codec can't encode characters in position 8064-8066: ordinal not in range(128)
+2018-11-21 23:45:00 [root] ERROR: 'ascii' codec can't encode characters in position 9205-9207: ordinal not in range(128)
+2018-11-21 23:45:00 [root] ERROR: 'ascii' codec can't encode characters in position 9205-9207: ordinal not in range(128)
+2018-11-21 23:45:00 [root] ERROR: 'ascii' codec can't encode characters in position 9205-9207: ordinal not in range(128)
+2018-11-21 23:45:00 [root] ERROR: 'ascii' codec can't encode characters in position 9205-9207: ordinal not in range(128)
+2018-11-21 23:45:00 [root] ERROR: 'ascii' codec can't encode characters in position 9205-9207: ordinal not in range(128)
+2018-11-21 23:45:00 [root] ERROR: 'ascii' codec can't encode characters in position 9205-9207: ordinal not in range(128)
+2018-11-21 23:45:00 [root] ERROR: 'ascii' codec can't encode characters in position 9205-9207: ordinal not in range(128)
+2018-11-21 23:45:00 [root] ERROR: 'ascii' codec can't encode characters in position 9205-9207: ordinal not in range(128)
+2018-11-21 23:45:01 [root] ERROR: HTTPSConnectionPool(host='www1.maine.gov', port=443): Max retries exceeded with url: /cgi-bin/online/mdoc/search-and-deposit/detail.pl?mdoc_number1=28506 (Caused by SSLError(SSLError("bad handshake: SysCallError(-1, 'Unexpected EOF')",),))
+2018-11-21 23:45:01 [root] ERROR: local variable 'OutputString' referenced before assignment
+2018-11-21 23:45:01 [root] ERROR: local variable 'OutputString' referenced before assignment
+2018-11-21 23:45:01 [root] ERROR: local variable 'OutputString' referenced before assignment
+2018-11-21 23:45:01 [root] ERROR: local variable 'OutputString' referenced before assignment
+2018-11-21 23:45:01 [root] ERROR: local variable 'OutputString' referenced before assignment
+2018-11-21 23:45:01 [root] ERROR: local variable 'OutputString' referenced before assignment
+2018-11-21 23:45:01 [root] ERROR: local variable 'OutputString' referenced before assignment
+2018-11-21 23:45:01 [root] ERROR: 'str' object has no attribute 'findAll'
+2018-11-22 00:26:57 [root] ERROR: 'ascii' codec can't encode characters in position 8096-8098: ordinal not in range(128)
+2018-11-22 00:26:57 [root] ERROR: 'ascii' codec can't encode characters in position 8096-8098: ordinal not in range(128)
+2018-11-22 00:26:57 [root] ERROR: 'ascii' codec can't encode characters in position 8096-8098: ordinal not in range(128)
+2018-11-22 00:26:57 [root] ERROR: 'ascii' codec can't encode characters in position 8096-8098: ordinal not in range(128)
+2018-11-22 00:26:57 [root] ERROR: 'ascii' codec can't encode characters in position 8096-8098: ordinal not in range(128)
+2018-11-22 00:26:57 [root] ERROR: 'ascii' codec can't encode characters in position 8096-8098: ordinal not in range(128)
+2018-11-22 00:26:57 [root] ERROR: 'ascii' codec can't encode characters in position 8096-8098: ordinal not in range(128)
+2018-11-22 00:26:57 [root] ERROR: 'ascii' codec can't encode characters in position 8096-8098: ordinal not in range(128)

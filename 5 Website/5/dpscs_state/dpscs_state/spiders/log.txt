@@ -1,0 +1,1808 @@
+2018-11-18 12:05:52 [root] ERROR: database "dpscs_state" already exists
+
+2018-11-18 12:26:33 [root] ERROR: database "dpscs_state" already exists
+
+2018-11-18 12:26:35 [root] ERROR: relation "dpscs_state_data" already exists
+
+2018-11-18 12:28:13 [root] ERROR: database "dpscs_state" already exists
+
+2018-11-18 12:28:13 [root] ERROR: relation "dpscs_state_data" already exists
+
+2018-11-18 12:29:19 [root] ERROR: database "dpscs_state" already exists
+
+2018-11-18 12:29:19 [root] ERROR: relation "dpscs_state_data" already exists
+
+2018-11-18 12:40:19 [root] ERROR: database "dpscs_state" already exists
+
+2018-11-18 12:40:19 [root] ERROR: relation "dpscs_state_data" already exists
+
+2018-11-18 12:42:09 [root] ERROR: database "dpscs_state" already exists
+
+2018-11-18 12:42:09 [root] ERROR: relation "dpscs_state_data" already exists
+
+2018-11-18 12:51:36 [root] ERROR: database "dpscs_state" already exists
+
+2018-11-18 12:51:36 [root] ERROR: relation "dpscs_state_data" already exists
+
+2018-11-18 12:53:11 [root] ERROR: database "dpscs_state" already exists
+
+2018-11-18 12:53:11 [root] ERROR: relation "dpscs_state_data" already exists
+
+2018-11-18 12:54:45 [root] ERROR: database "dpscs_state" already exists
+
+2018-11-18 12:54:45 [root] ERROR: relation "dpscs_state_data" already exists
+
+2018-11-18 12:56:42 [root] ERROR: database "dpscs_state" already exists
+
+2018-11-18 12:56:42 [root] ERROR: relation "dpscs_state_data" already exists
+
+2018-11-18 12:57:47 [root] ERROR: database "dpscs_state" already exists
+
+2018-11-18 12:57:47 [root] ERROR: relation "dpscs_state_data" already exists
+
+2018-11-18 13:13:47 [root] ERROR: database "dpscs_state" already exists
+
+2018-11-18 13:13:47 [root] ERROR: relation "dpscs_state_data" already exists
+
+2018-11-18 13:18:15 [root] ERROR: database "dpscs_state" already exists
+
+2018-11-18 13:18:15 [root] ERROR: relation "dpscs_state_data" already exists
+
+2018-11-18 13:22:20 [root] ERROR: database "dpscs_state" already exists
+
+2018-11-18 13:22:20 [root] ERROR: relation "dpscs_state_data" already exists
+
+2018-11-18 13:23:16 [root] ERROR: database "dpscs_state" already exists
+
+2018-11-18 13:23:16 [root] ERROR: relation "dpscs_state_data" already exists
+
+2018-11-18 13:36:52 [root] ERROR: database "dpscs_state" already exists
+
+2018-11-18 13:36:52 [root] ERROR: relation "dpscs_state_data" already exists
+
+2018-11-18 13:37:47 [root] ERROR: database "dpscs_state" already exists
+
+2018-11-18 13:37:47 [root] ERROR: relation "dpscs_state_data" already exists
+
+2018-11-18 13:38:17 [root] ERROR: database "dpscs_state" already exists
+
+2018-11-18 13:38:17 [root] ERROR: relation "dpscs_state_data" already exists
+
+2018-11-18 13:38:33 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58381631> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 147, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:38:40 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58376670> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 147, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:38:47 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58379233> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 147, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:38:55 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58386187> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 147, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:38:58 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58377743> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 147, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:38:58 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58369856> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 147, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:38:58 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58378406> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 147, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:38:58 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58387654> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 147, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:38:58 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58386447> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 147, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:38:58 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58386446> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 147, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:38:58 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58382983> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 147, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:38:58 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58375998> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 147, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:38:58 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58387461> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 147, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:39:00 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58377710> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 147, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:39:00 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58386130> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 147, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:39:00 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58379662> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 147, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:39:00 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58385648> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 147, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:39:00 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58375825> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 147, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:39:00 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58377080> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 147, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:39:00 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58368613> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 147, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:39:00 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58379530> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 147, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:39:00 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58375272> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 147, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:39:00 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58375483> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 147, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:39:00 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58380825> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 147, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:39:00 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58382796> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 147, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:39:00 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58367103> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 147, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:39:01 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58376568> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 147, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:39:01 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58378338> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 147, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:39:01 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58377950> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 147, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:39:01 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58369845> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 147, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:40:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58369847> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 147, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:40:29 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58374740> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 147, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:40:29 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58369846> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 147, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:40:29 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58385448> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 147, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:40:29 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58385702> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 147, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:40:29 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58383061> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 147, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:40:29 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58380254> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 147, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:40:29 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58383137> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 147, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:40:29 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58385633> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 147, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:40:29 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58368371> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 147, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:40:29 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58386532> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 147, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:40:29 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58386567> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 147, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:40:58 [root] ERROR: database "dpscs_state" already exists
+
+2018-11-18 13:40:58 [root] ERROR: relation "dpscs_state_data" already exists
+
+2018-11-18 13:41:59 [root] ERROR: database "dpscs_state" already exists
+
+2018-11-18 13:41:59 [root] ERROR: relation "dpscs_state_data" already exists
+
+2018-11-18 13:42:45 [root] ERROR: database "dpscs_state" already exists
+
+2018-11-18 13:42:45 [root] ERROR: relation "dpscs_state_data" already exists
+
+2018-11-18 13:43:17 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58381631> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 147, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:44:07 [root] ERROR: database "dpscs_state" already exists
+
+2018-11-18 13:44:07 [root] ERROR: relation "dpscs_state_data" already exists
+
+2018-11-18 13:44:31 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58381631> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 148, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:44:37 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58376670> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 148, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:44:39 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58386447> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 148, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:44:40 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58378406> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 148, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:44:42 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58386187> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 148, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:44:45 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58386446> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 148, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:44:48 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58387654> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 148, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:44:51 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58379233> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 148, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:44:52 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58377743> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 148, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:44:53 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58369856> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 148, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:44:55 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58382983> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 148, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:44:55 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58383607> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 148, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:44:55 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58376637> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 148, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:44:55 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58385357> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 148, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:44:55 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58377710> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 148, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:44:55 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58379662> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 148, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:44:55 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58385648> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 148, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:44:55 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58387461> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 148, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:44:55 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58386130> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 148, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:44:55 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58388239> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 148, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:44:55 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58381387> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 148, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:44:55 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58381907> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 148, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:44:55 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58375998> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 148, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:44:55 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58386239> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 148, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:44:55 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58369115> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 148, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:44:56 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58387316> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 148, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:44:56 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58382509> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 148, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:44:56 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58383148> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 148, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:44:56 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58378732> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 148, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:44:56 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58387954> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 148, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:44:57 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58372482> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 148, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:44:57 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58376568> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 148, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:44:57 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58377950> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 148, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:44:57 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58378338> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 148, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:44:57 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58369847> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 148, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:44:58 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58380405> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 148, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:44:58 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58369846> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 148, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:44:58 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58369845> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 148, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:44:58 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58374740> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 148, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:44:58 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58385448> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 148, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:44:58 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58385702> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 148, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:44:59 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58383061> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 148, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:44:59 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58377080> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 148, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:44:59 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58368613> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 148, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:44:59 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58379530> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 148, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:44:59 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58375272> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 148, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:44:59 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58375483> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 148, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:44:59 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58380825> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 148, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:45:00 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58382796> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 148, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:45:00 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58367103> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 148, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:45:00 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58380254> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 148, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:45:00 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58383137> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 148, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:45:00 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58375825> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 148, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:45:00 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58385633> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 148, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:45:01 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58368371> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 148, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:45:01 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58386532> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 148, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:45:01 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58386567> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 148, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:45:01 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58367723> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 148, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:45:01 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58372425> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 148, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:45:01 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58373250> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 148, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:45:02 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58374419> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 148, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:45:02 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58381965> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 148, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:45:02 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58375873> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 148, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:45:02 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58384494> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\spiders\dpscs_state_crawler.py", line 148, in Get_data
+    TrTags = TableTag.findAll("tr")
+AttributeError: 'NoneType' object has no attribute 'findAll'
+2018-11-18 13:45:35 [root] ERROR: database "dpscs_state" already exists
+
+2018-11-18 13:45:35 [root] ERROR: relation "dpscs_state_data" already exists
+
+2018-11-18 13:48:19 [root] ERROR: database "dpscs_state" already exists
+
+2018-11-18 13:48:19 [root] ERROR: relation "dpscs_state_data" already exists
+
+2018-11-18 13:49:11 [root] ERROR: 'NoneType' object has no attribute 'replace'
+2018-11-18 13:49:11 [root] ERROR: local variable 'MainTag_json' referenced before assignment
+2018-11-18 13:49:11 [root] ERROR: local variable 'MainTag_json' referenced before assignment
+2018-11-18 13:49:11 [root] ERROR: local variable 'MainTag_json' referenced before assignment
+2018-11-18 13:49:11 [root] ERROR: local variable 'MainTag_json' referenced before assignment
+2018-11-18 13:49:11 [root] ERROR: local variable 'Standard_Price' referenced before assignment
+2018-11-18 13:49:11 [root] ERROR: local variable 'MainTag_json' referenced before assignment
+2018-11-18 13:49:11 [root] ERROR: local variable 'MainTag_json' referenced before assignment
+2018-11-18 13:49:11 [root] ERROR: local variable 'MainTag_json' referenced before assignment
+2018-11-18 13:49:11 [root] ERROR: local variable 'Strhtml' referenced before assignment
+2018-11-18 13:49:11 [root] ERROR: local variable 'MainTag_json' referenced before assignment
+2018-11-18 13:49:11 [root] ERROR: local variable 'MainTag_json' referenced before assignment
+2018-11-18 13:49:11 [root] ERROR: local variable 'MainTag_json' referenced before assignment
+2018-11-18 13:49:11 [root] ERROR: local variable 'MainTag_json' referenced before assignment
+2018-11-18 13:49:11 [root] ERROR: local variable 'Url' referenced before assignment
+2018-11-18 13:51:01 [root] ERROR: database "dpscs_state" already exists
+
+2018-11-18 13:51:01 [root] ERROR: relation "dpscs_state_data" already exists
+
+2018-11-18 13:55:06 [root] ERROR: database "dpscs_state" already exists
+
+2018-11-18 13:55:06 [root] ERROR: relation "dpscs_state_data" already exists
+
+2018-11-18 13:56:21 [root] ERROR: database "dpscs_state" already exists
+
+2018-11-18 13:56:21 [root] ERROR: relation "dpscs_state_data" already exists
+
+2018-11-18 14:02:24 [root] ERROR: database "dpscs_state" already exists
+
+2018-11-18 14:02:24 [root] ERROR: relation "dpscs_state_data" already exists
+
+2018-11-18 14:04:00 [root] ERROR: database "dpscs_state" already exists
+
+2018-11-18 14:04:00 [root] ERROR: relation "dpscs_state_data" already exists
+
+2018-11-18 14:10:55 [root] ERROR: database "dpscs_state" already exists
+
+2018-11-18 14:13:01 [root] ERROR: database "dpscs_state" already exists
+
+2018-11-18 14:13:01 [root] ERROR: relation "dpscs_state_data" already exists
+
+2018-11-18 14:20:04 [root] ERROR: database "dpscs_state" already exists
+
+2018-11-18 14:20:04 [root] ERROR: relation "dpscs_state_data" already exists
+
+2018-11-18 14:21:39 [root] ERROR: database "dpscs_state" already exists
+
+2018-11-18 14:21:39 [root] ERROR: relation "dpscs_state_data" already exists
+
+2018-11-18 14:28:26 [root] ERROR: database "dpscs_state" already exists
+
+2018-11-18 14:28:26 [root] ERROR: relation "dpscs_state_data" already exists
+
+2018-11-18 14:29:26 [root] ERROR: database "dpscs_state" already exists
+
+2018-11-18 14:29:26 [root] ERROR: relation "dpscs_state_data" already exists
+
+2018-11-18 14:30:21 [root] ERROR: database "dpscs_state" already exists
+
+2018-11-18 14:30:21 [root] ERROR: relation "dpscs_state_data" already exists
+
+2018-11-18 14:33:03 [root] ERROR: database "dpscs_state" already exists
+
+2018-11-18 14:33:03 [root] ERROR: relation "dpscs_state_data" already exists
+
+2018-11-18 14:34:27 [root] ERROR: database "dpscs_state" already exists
+
+2018-11-18 14:34:27 [root] ERROR: relation "dpscs_state_data" already exists
+
+2018-11-18 14:35:17 [root] ERROR: database "dpscs_state" already exists
+
+2018-11-18 14:35:17 [root] ERROR: relation "dpscs_state_data" already exists
+
+2018-11-18 14:35:43 [root] ERROR: duplicate key value violates unique constraint "dpscs_state_data_inmatelink_key"
+DETAIL:  Key (inmatelink)=(http://www.dpscs.state.md.us/inmate/search.do?searchType=detail&id=58424411) already exists.
+
+2018-11-18 14:37:12 [root] ERROR: database "dpscs_state" already exists
+
+2018-11-18 14:37:12 [root] ERROR: relation "dpscs_state_data" already exists
+
+2018-11-18 14:45:20 [twisted] CRITICAL: Unhandled error in Deferred:
+2018-11-18 14:45:20 [twisted] CRITICAL: 
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\twisted\internet\defer.py", line 1418, in _inlineCallbacks
+    result = g.send(result)
+  File "c:\python27\lib\site-packages\scrapy\crawler.py", line 98, in crawl
+    six.reraise(*exc_info)
+  File "c:\python27\lib\site-packages\scrapy\crawler.py", line 80, in crawl
+    self.engine = self._create_engine()
+  File "c:\python27\lib\site-packages\scrapy\crawler.py", line 105, in _create_engine
+    return ExecutionEngine(self, lambda _: self.stop())
+  File "c:\python27\lib\site-packages\scrapy\core\engine.py", line 70, in __init__
+    self.scraper = Scraper(crawler)
+  File "c:\python27\lib\site-packages\scrapy\core\scraper.py", line 71, in __init__
+    self.itemproc = itemproc_cls.from_crawler(crawler)
+  File "c:\python27\lib\site-packages\scrapy\middleware.py", line 58, in from_crawler
+    return cls.from_settings(crawler.settings, crawler)
+  File "c:\python27\lib\site-packages\scrapy\middleware.py", line 34, in from_settings
+    mwcls = load_object(clspath)
+  File "c:\python27\lib\site-packages\scrapy\utils\misc.py", line 44, in load_object
+    mod = import_module(module)
+  File "c:\python27\lib\importlib\__init__.py", line 37, in import_module
+    __import__(name)
+  File "F:\Projects\50pythonwebsite\Website\5\dpscs_state\dpscs_state\pipelines.py", line 11, in <module>
+    from dpscs_state.ReusableFunctions import ViewState,Scrape_BetweenString,Get_ReplaceData,GET_ReData1,Get_ReData2,GET_data,ViewState2
+ImportError: cannot import name ViewState
+2018-11-18 14:46:05 [root] ERROR: database "dpscs_state" already exists
+
+2018-11-22 00:28:02 [root] ERROR: local variable 'InmateLink' referenced before assignment
