@@ -1,0 +1,132 @@
+2018-10-23 18:28:27 [py.warnings] WARNING: D:\Project\Python Script\ScrapyProject\18ScrapyProjects\ajio\ajio\pipelines.py:10: ScrapyDeprecationWarning: Module `scrapy.contrib.exporter` is deprecated, use `scrapy.exporters` instead
+  from scrapy.contrib.exporter import CsvItemExporter
+
+2018-10-23 18:29:09 [py.warnings] WARNING: D:\Project\Python Script\ScrapyProject\18ScrapyProjects\ajio\ajio\pipelines.py:10: ScrapyDeprecationWarning: Module `scrapy.contrib.exporter` is deprecated, use `scrapy.exporters` instead
+  from scrapy.contrib.exporter import CsvItemExporter
+
+2018-10-23 18:29:48 [py.warnings] WARNING: D:\Project\Python Script\ScrapyProject\18ScrapyProjects\ajio\ajio\pipelines.py:10: ScrapyDeprecationWarning: Module `scrapy.contrib.exporter` is deprecated, use `scrapy.exporters` instead
+  from scrapy.contrib.exporter import CsvItemExporter
+
+2018-10-23 18:30:44 [py.warnings] WARNING: D:\Project\Python Script\ScrapyProject\18ScrapyProjects\ajio\ajio\pipelines.py:10: ScrapyDeprecationWarning: Module `scrapy.contrib.exporter` is deprecated, use `scrapy.exporters` instead
+  from scrapy.contrib.exporter import CsvItemExporter
+
+2018-10-23 18:31:12 [py.warnings] WARNING: D:\Project\Python Script\ScrapyProject\18ScrapyProjects\ajio\ajio\pipelines.py:10: ScrapyDeprecationWarning: Module `scrapy.contrib.exporter` is deprecated, use `scrapy.exporters` instead
+  from scrapy.contrib.exporter import CsvItemExporter
+
+2018-10-23 18:33:59 [py.warnings] WARNING: D:\Project\Python Script\ScrapyProject\18ScrapyProjects\ajio\ajio\pipelines.py:10: ScrapyDeprecationWarning: Module `scrapy.contrib.exporter` is deprecated, use `scrapy.exporters` instead
+  from scrapy.contrib.exporter import CsvItemExporter
+
+2018-10-23 18:34:17 [root] ERROR: 'value'
+2018-10-23 18:34:50 [py.warnings] WARNING: D:\Project\Python Script\ScrapyProject\18ScrapyProjects\ajio\ajio\pipelines.py:10: ScrapyDeprecationWarning: Module `scrapy.contrib.exporter` is deprecated, use `scrapy.exporters` instead
+  from scrapy.contrib.exporter import CsvItemExporter
+
+2018-10-23 18:34:52 [root] ERROR: 'value'
+2018-10-23 18:34:52 [root] ERROR: 'value'
+2018-10-23 18:34:53 [root] ERROR: 'value'
+2018-10-23 18:34:54 [root] ERROR: 'value'
+2018-10-23 18:34:56 [root] ERROR: 'value'
+2018-10-23 18:34:56 [root] ERROR: 'value'
+2018-10-23 18:34:57 [root] ERROR: 'value'
+2018-10-23 18:34:58 [root] ERROR: 'value'
+2018-10-28 04:07:23 [py.warnings] WARNING: F:\Projects\ajio\ajio\pipelines.py:10: ScrapyDeprecationWarning: Module `scrapy.contrib.exporter` is deprecated, use `scrapy.exporters` instead
+  from scrapy.contrib.exporter import CsvItemExporter
+
+2018-10-28 04:16:33 [py.warnings] WARNING: F:\Projects\ajio\ajio\pipelines.py:10: ScrapyDeprecationWarning: Module `scrapy.contrib.exporter` is deprecated, use `scrapy.exporters` instead
+  from scrapy.contrib.exporter import CsvItemExporter
+
+2018-10-28 04:17:42 [py.warnings] WARNING: F:\Projects\ajio\ajio\pipelines.py:10: ScrapyDeprecationWarning: Module `scrapy.contrib.exporter` is deprecated, use `scrapy.exporters` instead
+  from scrapy.contrib.exporter import CsvItemExporter
+
+2018-10-28 04:25:47 [py.warnings] WARNING: F:\Projects\ajio\ajio\pipelines.py:10: ScrapyDeprecationWarning: Module `scrapy.contrib.exporter` is deprecated, use `scrapy.exporters` instead
+  from scrapy.contrib.exporter import CsvItemExporter
+
+2018-10-28 04:25:59 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.shein.in/Men-Space-Dye-Tee-p-517728-cat-1980.html> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "F:\Projects\ajio\ajio\spiders\shein_data.py", line 51, in parse
+    f.write(response.text)
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 869-874: ordinal not in range(128)
+2018-10-28 04:26:39 [py.warnings] WARNING: F:\Projects\ajio\ajio\pipelines.py:10: ScrapyDeprecationWarning: Module `scrapy.contrib.exporter` is deprecated, use `scrapy.exporters` instead
+  from scrapy.contrib.exporter import CsvItemExporter
+
+2018-10-28 04:27:11 [py.warnings] WARNING: F:\Projects\ajio\ajio\pipelines.py:10: ScrapyDeprecationWarning: Module `scrapy.contrib.exporter` is deprecated, use `scrapy.exporters` instead
+  from scrapy.contrib.exporter import CsvItemExporter
+
+2018-10-28 04:37:20 [py.warnings] WARNING: F:\Projects\ajio\ajio\pipelines.py:10: ScrapyDeprecationWarning: Module `scrapy.contrib.exporter` is deprecated, use `scrapy.exporters` instead
+  from scrapy.contrib.exporter import CsvItemExporter
+
+2018-10-28 04:39:27 [py.warnings] WARNING: F:\Projects\ajio\ajio\pipelines.py:10: ScrapyDeprecationWarning: Module `scrapy.contrib.exporter` is deprecated, use `scrapy.exporters` instead
+  from scrapy.contrib.exporter import CsvItemExporter
+
+2018-10-28 04:56:36 [py.warnings] WARNING: F:\Projects\ajio\ajio\pipelines.py:10: ScrapyDeprecationWarning: Module `scrapy.contrib.exporter` is deprecated, use `scrapy.exporters` instead
+  from scrapy.contrib.exporter import CsvItemExporter
+
+2018-10-28 04:58:48 [py.warnings] WARNING: F:\Projects\ajio\ajio\pipelines.py:10: ScrapyDeprecationWarning: Module `scrapy.contrib.exporter` is deprecated, use `scrapy.exporters` instead
+  from scrapy.contrib.exporter import CsvItemExporter
+
+2018-10-28 04:59:15 [py.warnings] WARNING: F:\Projects\ajio\ajio\pipelines.py:10: ScrapyDeprecationWarning: Module `scrapy.contrib.exporter` is deprecated, use `scrapy.exporters` instead
+  from scrapy.contrib.exporter import CsvItemExporter
+
+2018-10-28 05:26:24 [py.warnings] WARNING: F:\Projects\ajio\ajio\pipelines.py:10: ScrapyDeprecationWarning: Module `scrapy.contrib.exporter` is deprecated, use `scrapy.exporters` instead
+  from scrapy.contrib.exporter import CsvItemExporter
+
+2018-10-28 05:50:14 [py.warnings] WARNING: F:\Projects\ajio\ajio\pipelines.py:10: ScrapyDeprecationWarning: Module `scrapy.contrib.exporter` is deprecated, use `scrapy.exporters` instead
+  from scrapy.contrib.exporter import CsvItemExporter
+
+2018-10-28 05:57:29 [py.warnings] WARNING: F:\Projects\ajio\ajio\pipelines.py:10: ScrapyDeprecationWarning: Module `scrapy.contrib.exporter` is deprecated, use `scrapy.exporters` instead
+  from scrapy.contrib.exporter import CsvItemExporter
+
+2018-10-28 06:00:05 [py.warnings] WARNING: F:\Projects\ajio\ajio\pipelines.py:10: ScrapyDeprecationWarning: Module `scrapy.contrib.exporter` is deprecated, use `scrapy.exporters` instead
+  from scrapy.contrib.exporter import CsvItemExporter
+
+2018-10-28 06:07:31 [py.warnings] WARNING: F:\Projects\ajio\ajio\pipelines.py:10: ScrapyDeprecationWarning: Module `scrapy.contrib.exporter` is deprecated, use `scrapy.exporters` instead
+  from scrapy.contrib.exporter import CsvItemExporter
+
+2018-10-28 06:17:27 [py.warnings] WARNING: F:\Projects\ajio\ajio\pipelines.py:10: ScrapyDeprecationWarning: Module `scrapy.contrib.exporter` is deprecated, use `scrapy.exporters` instead
+  from scrapy.contrib.exporter import CsvItemExporter
+
+2018-10-28 06:19:01 [py.warnings] WARNING: F:\Projects\ajio\ajio\pipelines.py:10: ScrapyDeprecationWarning: Module `scrapy.contrib.exporter` is deprecated, use `scrapy.exporters` instead
+  from scrapy.contrib.exporter import CsvItemExporter
+
+2018-10-28 06:39:07 [py.warnings] WARNING: F:\Projects\ajio\ajio\pipelines.py:10: ScrapyDeprecationWarning: Module `scrapy.contrib.exporter` is deprecated, use `scrapy.exporters` instead
+  from scrapy.contrib.exporter import CsvItemExporter
+
+2018-10-28 06:40:56 [py.warnings] WARNING: F:\Projects\ajio\ajio\pipelines.py:10: ScrapyDeprecationWarning: Module `scrapy.contrib.exporter` is deprecated, use `scrapy.exporters` instead
+  from scrapy.contrib.exporter import CsvItemExporter
+
+2018-10-28 06:45:27 [py.warnings] WARNING: F:\Projects\ajio\ajio\pipelines.py:10: ScrapyDeprecationWarning: Module `scrapy.contrib.exporter` is deprecated, use `scrapy.exporters` instead
+  from scrapy.contrib.exporter import CsvItemExporter
+
+2018-10-28 06:46:39 [py.warnings] WARNING: F:\Projects\ajio\ajio\pipelines.py:10: ScrapyDeprecationWarning: Module `scrapy.contrib.exporter` is deprecated, use `scrapy.exporters` instead
+  from scrapy.contrib.exporter import CsvItemExporter
+
+2018-10-28 07:01:37 [py.warnings] WARNING: F:\Projects\ajio\ajio\pipelines.py:10: ScrapyDeprecationWarning: Module `scrapy.contrib.exporter` is deprecated, use `scrapy.exporters` instead
+  from scrapy.contrib.exporter import CsvItemExporter
+
+2018-10-28 07:04:18 [py.warnings] WARNING: F:\Projects\ajio\ajio\pipelines.py:10: ScrapyDeprecationWarning: Module `scrapy.contrib.exporter` is deprecated, use `scrapy.exporters` instead
+  from scrapy.contrib.exporter import CsvItemExporter
+
+2018-10-28 07:06:50 [py.warnings] WARNING: F:\Projects\ajio\ajio\pipelines.py:10: ScrapyDeprecationWarning: Module `scrapy.contrib.exporter` is deprecated, use `scrapy.exporters` instead
+  from scrapy.contrib.exporter import CsvItemExporter
+
+2018-10-28 07:08:29 [py.warnings] WARNING: F:\Projects\ajio\ajio\pipelines.py:10: ScrapyDeprecationWarning: Module `scrapy.contrib.exporter` is deprecated, use `scrapy.exporters` instead
+  from scrapy.contrib.exporter import CsvItemExporter
+
+2018-10-28 07:11:59 [py.warnings] WARNING: F:\Projects\ajio\ajio\pipelines.py:10: ScrapyDeprecationWarning: Module `scrapy.contrib.exporter` is deprecated, use `scrapy.exporters` instead
+  from scrapy.contrib.exporter import CsvItemExporter
+
+2018-10-28 19:05:05 [py.warnings] WARNING: F:\Projects\ajio\ajio\pipelines.py:10: ScrapyDeprecationWarning: Module `scrapy.contrib.exporter` is deprecated, use `scrapy.exporters` instead
+  from scrapy.contrib.exporter import CsvItemExporter
+
+2018-10-28 19:09:03 [py.warnings] WARNING: F:\Projects\ajio\ajio\pipelines.py:10: ScrapyDeprecationWarning: Module `scrapy.contrib.exporter` is deprecated, use `scrapy.exporters` instead
+  from scrapy.contrib.exporter import CsvItemExporter
+

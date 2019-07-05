@@ -1,0 +1,32 @@
+						Ajio Documentaion
+
+=============================================================================
+
+(1)On Path "\ajio\ajio\spiders",There are two spiders 'ajio_link.py' & 'ajio_data.py'.
+	'ajio_link.py'  -- Spider for Link Extraction , find links from table named 'ajio_urls' from Database named 'ajio'.
+	'ajio_data.py'	-- Spider for Data Extraction , find data from table named 'ajio_data' from Database named 'ajio'.
+	
+(2) From 'pipelines.py' file you will find database username & password. Change it according.
+	host = 'localhost'  -- Do not change it 
+    user = 'root' 		-- Change username, Insert your database username
+    password = 'xbyte'  -- Change password, Insert your database password 
+    DB_name = "ajio"	-- Do not change it 
+
+	Note : Here we are using Mysql Database.
+(3)	Link Extraction Phase : 
+	->open "settings.py" : Change "CONCURRENT_REQUESTS = 1" & save it.
+	->Go to on Path "\ajio\ajio\spiders" --- Open cmd there & run link extraction spider by using command 'scrapy crawl ajio_link --nolog'.
+		Wait till spider finished link extraction you can find urls from table named 'ajio_urls' from Database.
+(4) Data extraction Phase : 
+	->open "settings.py" : Change "CONCURRENT_REQUESTS = 16" & save it. (You can set CONCURRENT_REQUESTS as per capacity of your machine,Default = & save it.
+	->Go to on Path "\ajio\ajio\spiders" --- Open cmd there & run data extraction spider by using command 'scrapy crawl ajio_data --nolog'.
+		Wait till spider finished data extraction you can find data from table named 'ajio_data' from Database.
+	
+	->After data extraction finished , Go to on Path "\ajio\ajio\spiders"  you can find csv named 'AjioData.csv' containing full data.
+	
+	
+	
+	
+	
+	
+	
